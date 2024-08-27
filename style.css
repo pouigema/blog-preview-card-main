@@ -1,0 +1,117 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4D04E;
+    font-family: "Figtree", sans-serif;
+
+}
+
+
+p{
+    margin: 5% 0;
+}
+h2,h3, h4{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: 16px;
+
+}
+/* CONTENU */
+.carre{
+    /* transform: translate(-50%, -50%);
+    position: absolute;
+    top: 47%;
+    left: 50%; */
+    margin-bottom: 2%;
+    margin-left: 35%;
+    margin-top: 2%;
+    width: 22%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px black solid;
+    box-shadow:10px 5px ;
+    
+}
+.imgPrincipale{
+    text-align: center;
+    margin-bottom: 5%;    
+}
+.imgPrincipale img{
+    width: 100%;
+    border-radius: 10px;
+}
+.logo{
+    box-sizing: border-box;
+
+}
+h4{
+    background-color: #F4D04E;
+    padding: 5px 5px;
+    font-weight:900 ;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    margin-right: 50%; 
+    box-sizing: border-box;
+
+
+}
+/* lien */
+.contenu a{
+    text-decoration: none;
+    color: black;
+}
+p span {
+    color: #6B6B6B;
+    line-height: 25px;
+}
+
+/* IMAGE DU FOND */
+
+.imagefond img{
+    width: 10%;
+    margin-top: 10px;
+}
+.imagefond h3{
+    display: inline;
+    position: relative;
+    bottom: 12px;
+    margin-left: 10px
+} 
+/* effet lien */
+a:hover{
+    color: #F4D04E;
+}
+.attribution a:hover{
+    color: white;
+}
+/* RESPONSIVE */
+@media screen and (max-width:950px) {
+    .carre{
+        margin:15% 5%;
+
+        margin-right: 80px;
+        width: 90%;
+        padding: 15px;
+        border-radius: 15px;
+        
+        border: 1px black solid;
+        box-shadow:10px 5px ;
+    }
+    h4{
+    width: 40%;
+    }
+    /* .attribution{
+        font-size: 10px;
+        display: flex;
+        position: relative;
+        text-align: none;
+    } */
+  
+}
