@@ -26,13 +26,13 @@ h2,h3, h4{
     position: absolute;
     top: 47%;
     left: 50%; */
-     margin: 20px; /* Adds some spacing around the container */
+    margin: 20px; /* Adds some spacing around the container */
     
     max-width: 400px; /* Set a max-width for better readability on large screens */
     
-    margin-bottom: 10%;
+/*     margin-bottom: 10%;
     margin-left: 35%;
-    margin-top: 15%;
+    margin-top: 15%; */
     width: 100%;
     background-color: #fff;
     padding: 20px;
