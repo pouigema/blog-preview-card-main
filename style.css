@@ -7,7 +7,6 @@
 body{
     background-color: #F4D04E;
     font-family: "Figtree", sans-serif;
-
 }
 
 
@@ -27,10 +26,14 @@ h2,h3, h4{
     position: absolute;
     top: 47%;
     left: 50%; */
+     margin: 20px; /* Adds some spacing around the container */
+    
+    max-width: 400px; /* Set a max-width for better readability on large screens */
+    
     margin-bottom: 10%;
     margin-left: 35%;
     margin-top: 15%;
-    width: 30%;
+    width: 100%;
     background-color: #fff;
     padding: 20px;
     border-radius: 15px;
