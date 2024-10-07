@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #F4D04E;
     font-family: "Figtree", sans-serif;
+
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Ensures body takes full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #F4D04E; /* Retain background color */
 }
 
 
