@@ -28,25 +28,23 @@ h2,h3, h4{
 }
 /* CONTENU */
 .carre{
-    transform: translate(-50%, -50%);
+ /* transform: translate(-50%, -50%);
     position: absolute;
     top: 47%;
-    left: 50%;
-    margin: 15px; /* Adds some spacing around the container */
-    
-    max-width: 400px; /* Set a max-width for better readability on large screens */
-    
+    left: 50%; */
     margin-bottom: 15%;
     margin-left: 35%;
     margin-top: 10%;
-    
-    width: 100%;
     background-color: #fff;
     padding: 20px;
     border-radius: 15px;
     border: 1px black solid;
     box-shadow:10px 5px ;
     
+    width: 100%;
+    max-width: 400px; /* Set a max-width for better readability on large screens */
+ 
+    margin: 20px; /* Adds some spacing around the container */
 }
 .imgPrincipale{
     text-align: center;
